@@ -10,8 +10,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="397dp"
-        android:layout_height="45dp"
+        android:layout_width="411dp"
+        android:layout_height="44dp"
         android:textColor="#000000"
         android:textSize="18sp"
         app:backgroundTint="#E3EEF8"
@@ -77,25 +77,10 @@
         app:backgroundTint="#E3EEF8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tv_logo"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintHorizontal_bias="0.878"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:text="오프라인"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:backgroundTint="#E3EEF8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tv_logo"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.137" />
 
     <Button
         android:id="@+id/button7"
@@ -107,10 +92,24 @@
         app:backgroundTint="#E3EEF8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tv_logo"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="111dp"
+        android:layout_height="43dp"
+        android:text="오프라인"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
 
     <TextView
         android:id="@+id/tv_logo"
@@ -142,17 +141,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.033" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="37dp"
-        android:layout_height="32dp"
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="74dp"
+        android:layout_height="49dp"
         android:background="#E3EEF8"
+        android:drawableBottom="@drawable/ic_menu_black_24dp"
+        app:backgroundTint="#E3EEF8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tv_logo"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039"
-        app:srcCompat="@drawable/ic_menu_black_24dp"
-        tools:ignore="VectorDrawableCompat" />
+        app:layout_constraintVertical_bias="0.03" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

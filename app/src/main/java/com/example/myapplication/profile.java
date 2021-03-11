@@ -7,12 +7,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class details extends AppCompatActivity implements View.OnClickListener {
+public class profile extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.details);
+        setContentView(R.layout.profile);
 
         Button bt1 = (Button)findViewById(R.id.button);
 
