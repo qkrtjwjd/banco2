@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name=".loginguide">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +25,14 @@
         <activity android:name=".profile"/>
         <activity android:name=".setting"/>
         <activity android:name=".settlementcheck"/>
+        <activity android:name=".account"/>
+        <activity android:name=".addaccountnumber"/>
+        <activity android:name=".findpassword"/>
+        <activity android:name=".login"/>
+        <activity android:name=".personalinformation"/>
+        <activity android:name=".newpassword"/>
+        <activity android:name=".shippingmethod"/>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
